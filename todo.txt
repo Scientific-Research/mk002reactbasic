@@ -1,0 +1,10 @@
+- low-hanging fruits
+    - install Sass
+    - data-driven site with JSON file
+    - display images
+    - components
+- more complicated
+    - load data from an API
+        - useState, useEffect  
+    - React Router
+
