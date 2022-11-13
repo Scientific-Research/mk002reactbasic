@@ -14,6 +14,9 @@ function App() {
         {germanNouns.map((noun) => {
           return (
             <div className="noun">
+              {" "}
+              {/* ohne diese div(className ="noun"), können wir  nicht alle drei Elemente vom .map bekommen und
+            wir werden nur letztes Element(nouns.plural) bekommen. */}
               <div>{`article: ${noun.article}`}</div>
               <div>{`singular: ${noun.singular}`}</div>
               <div>{`plural: ${noun.plural}`}</div>
