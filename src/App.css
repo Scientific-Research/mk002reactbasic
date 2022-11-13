@@ -1,0 +1,32 @@
+body {
+  background-color: #333;
+  color: #ccc;
+  font-family: ubuntu;
+  padding: 0 1rem;
+}
+body h1 {
+  color: rgb(206, 206, 18);
+}
+body h2 {
+  color: rgb(206, 9, 42);
+}
+body span {
+  color: rgb(0, 0, 0);
+}
+body h3 {
+  color: green;
+}
+body h4 {
+  color: #ccc;
+}
+body .noun {
+  background-color: rgb(20, 15, 53);
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  box-shadow: 5px 1px 1000px lightblue;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  width: 300px;
+  padding: 1rem;
+  color: white;
+  margin: 1rem;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=App.css.map */
