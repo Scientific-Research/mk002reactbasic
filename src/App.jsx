@@ -16,7 +16,8 @@ function App() {
             <div className="noun">
               {" "}
               {/* ohne diese div(className ="noun"), können wir  nicht alle drei Elemente vom .map bekommen und
-            wir werden nur letztes Element(nouns.plural) bekommen. */}
+            wir werden ansonsten nur die letztes Element(nouns.plural) bekommen. Das ist der haupt Punk,wie wir
+            die drei Elemente von .map bekommen können!*/}
               <div>{`article: ${noun.article}`}</div>
               <div>{`singular: ${noun.singular}`}</div>
               <div>{`plural: ${noun.plural}`}</div>

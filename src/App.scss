@@ -18,7 +18,7 @@ body {
   .noun {
     background-color: rgb(20, 15, 53);
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-    box-shadow: 5px 1px 500px lightblue;
+    box-shadow: 5px 1px 1000px lightblue;
     //   background-image: linear-gradient(red, yellow);
     //   background-image: linear-gradient(to right, red , yellow);
     // background-image: linear-gradient(to bottom right, red, yellow);
@@ -39,7 +39,8 @@ body {
 
     width: 300px;
     padding: 1rem;
-    color: #ccc;
+    color: white;
     margin: 1rem;
+    font-size: 1.5rem;
   }
 }
